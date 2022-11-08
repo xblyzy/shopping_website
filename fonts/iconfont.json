@@ -1,0 +1,16 @@
+{
+  "id": "3643288",
+  "name": "shopping",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "31737521",
+      "name": "展开",
+      "font_class": "zhankai",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    }
+  ]
+}
