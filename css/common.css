@@ -261,11 +261,104 @@ footer {
     text-align: center;
 }
 
-.mod_copyright{
+.mod_copyright {
     text-align: center;
 }
 
-.mod_copyright .links{
+.mod_copyright .links {
     margin-bottom: 15px;
 }
 
+/* 主体模块 */
+main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.news {
+    border: 1px solid #ccc;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news-hd a {
+    float: right;
+}
+
+.news-hd a::after {
+    content: '\e920';
+    font-family: 'icomoon';
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 生活服务 */
+.lifeservice {
+    height: 209px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.lifeservice ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lifeservice ul li {
+    flex: 25%;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.lifeservice li a {
+    display: flex;
+    margin-top: 12px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lifeservice li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+
+.bargain{
+    margin-top: 10px;
+}
